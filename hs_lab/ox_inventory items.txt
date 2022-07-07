@@ -1,0 +1,37 @@
+	------------------
+	['coke_brick'] = {
+		label = 'Coke Brick',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = ''
+	},
+	['coke'] = {
+		label = 'Coke',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = ''
+	},
+	['plastic_packet'] = {
+		label = 'Plastic Packet',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = ''
+	},
+	['coke_bag'] = {
+		label = 'Coke Bag',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = ''
+	},
+	['usbdealer'] = {
+		label = 'USB',
+		weight = 1,
+		stack = true,
+		close = true,
+		description = ''
+	},
+	------------------
