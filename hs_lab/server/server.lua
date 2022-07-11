@@ -3,7 +3,7 @@ if cfg.esxLegacy == false then
     TriggerEvent("esx:getSharedObject", function(obj) ESX = obj end)
 end
 
-ESX.RegisterUsableItem('usbdealer', function(source)
+ESX.RegisterUsableItem(cfg.usb["usb"], function(source)
 
     local xPlayer = ESX.GetPlayerFromId(source)
     xPlayer.removeInventoryItem(cfg.usb["usb"], 1)
